@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+SPDX-FileCopyrightText: Copyright (c) 2022 Andrea Binello ("andbin")
+SPDX-License-Identifier: MIT
+-->
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" th:href="@{/css/reset.css}" type="text/css">
+<link rel="stylesheet" th:href="@{/css/home.css}" type="text/css">
+<title>Spring Boot 2 &ndash; Thymeleaf Basic Demo</title>
+</head>
+<body>
+
+<h1>Spring Boot 2 &ndash; Thymeleaf Basic Demo</h1>
+
+<table class="app-info">
+  <tr>
+    <td class="label">Java Runtime Version</td>
+    <td class="value" th:text="${appInfo.javaRuntimeVersion}"></td>
+  </tr>
+  <tr>
+    <td class="label">Spring Version</td>
+    <td class="value" th:text="${appInfo.springVersion}"></td>
+  </tr>
+  <tr>
+    <td class="label">Spring Boot Version</td>
+    <td class="value" th:text="${appInfo.springBootVersion}"></td>
+  </tr>
+  <tr>
+    <td class="label">Thymeleaf Version</td>
+    <td class="value" th:text="${appInfo.thymeleafVersion}"></td>
+  </tr>
+</table>
+
+</body>
+</html>

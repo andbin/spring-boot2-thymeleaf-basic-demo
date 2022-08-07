@@ -1,0 +1,38 @@
+/*
+SPDX-FileCopyrightText: Copyright (c) 2022 Andrea Binello ("andbin")
+SPDX-License-Identifier: MIT
+*/
+
+body {
+  background-color: white;
+  color: black;
+  font-family: sans-serif;
+  margin: 2.5em;
+}
+
+h1 {
+  border-bottom: 0.12em solid black;
+  font-size: 170%;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+  padding-bottom: 0.2em;
+}
+
+table.app-info {
+  border-collapse: collapse;
+}
+
+table.app-info td {
+  border: 1px solid #808080;
+  font-weight: normal;
+  padding: 0.55em;
+  text-align: left;
+}
+
+table.app-info td.label {
+  background: #F2F2F2;
+}
+
+table.app-info td.value {
+  font-weight: bold;
+}
