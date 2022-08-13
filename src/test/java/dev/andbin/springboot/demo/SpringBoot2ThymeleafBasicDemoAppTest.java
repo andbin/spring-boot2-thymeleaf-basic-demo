@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-public class ThymeleafBasicDemoApplicationTest {
+public class SpringBoot2ThymeleafBasicDemoAppTest {
     @Test
     public void contextLoads() { }
 }

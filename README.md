@@ -33,7 +33,7 @@ From command line (in project's main directory):
 
 * import the project (&ldquo;File&rdquo; -> &ldquo;Import...&rdquo; then &ldquo;Existing Maven Projects&rdquo; etc...)
 * build the project (if &ldquo;Build Automatically&rdquo; is not active)
-* locate the `ThymeleafBasicDemoApplication` class and then &ldquo;Run As&rdquo; -> &ldquo;Java Application&rdquo;
+* locate the `SpringBoot2ThymeleafBasicDemoApp` class and then &ldquo;Run As&rdquo; -> &ldquo;Java Application&rdquo;
 
 **Note**: other IDEs (e.g. NetBeans, IntelliJ IDEA) can also be used, the import procedure may be very similar.
 

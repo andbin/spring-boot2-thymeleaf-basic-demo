@@ -44,7 +44,7 @@ SPDX-License-Identifier: MIT
 
     <properties>
         <java.version>11</java.version>
-        <start-class>dev.andbin.springboot.demo.ThymeleafBasicDemoApplication</start-class>
+        <start-class>dev.andbin.springboot.demo.SpringBoot2ThymeleafBasicDemoApp</start-class>
     </properties>
 
     <dependencies>
