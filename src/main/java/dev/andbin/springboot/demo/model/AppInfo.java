@@ -10,6 +10,7 @@ public class AppInfo {
     private String springVersion;
     private String springBootVersion;
     private String thymeleafVersion;
+    private String serverInfo;
 
     public String getJavaRuntimeVersion() {
         return javaRuntimeVersion;
@@ -43,13 +44,22 @@ public class AppInfo {
         this.thymeleafVersion = thymeleafVersion;
     }
 
+    public String getServerInfo() {
+        return serverInfo;
+    }
+
+    public void setServerInfo(String serverInfo) {
+        this.serverInfo = serverInfo;
+    }
+
     @Override
     public String toString() {
         return getClass().getSimpleName() + "["
                 + "javaRuntimeVersion=" + javaRuntimeVersion + ", "
                 + "springVersion=" + springVersion + ", "
                 + "springBootVersion=" + springBootVersion + ", "
-                + "thymeleafVersion=" + thymeleafVersion
+                + "thymeleafVersion=" + thymeleafVersion + ", "
+                + "serverInfo=" + serverInfo
                 + "]";
     }
 }
