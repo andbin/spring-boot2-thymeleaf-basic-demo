@@ -1,5 +1,5 @@
 /*
-SPDX-FileCopyrightText: Copyright (c) 2022 Andrea Binello ("andbin")
+SPDX-FileCopyrightText: Copyright (c) 2022-2023 Andrea Binello ("andbin")
 SPDX-License-Identifier: MIT
 */
 
